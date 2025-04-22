@@ -25,12 +25,8 @@ I was tasked to be a security analyst working for an e-commerce store that is is
 3.Specified the host field of mailsv to examine events only through the companies mail server and named two keywords first fail* with that wildcard * to find similar words like failure and failed, and second being root for any events containing root to make the final query  index="main" host=mailsv fail* root. Found a list of events with only a few out of the normal.
 ![Screenshot 2025-04-17 153015](https://github.com/user-attachments/assets/6a8222bc-6934-47a0-8387-680421bb9dee)
 
-4.Lastly I had to find any suspicious patterns of repeat sources attempting to log in while still failing. I found one IP addresses attempting to log in at the same time obscure at 1:39am on two seperate occasions. I narrowed the search and added the IP address to the query making it   index="main" host=mailsv fail* root "109.169.32.135"   and found 4 similar events of failed SSH logins for the root account at the same time 1:39am which is out of business hours. I reported my findings and recommended for that IP addresses to be blocked. 
+4.Lastly I had to find any suspicious patterns of repeat sources attempting to log in while still failing. I found one IP addresses attempting to log in at the same time obscure at 1:39am on two seperate occasions. I narrowed the search and added the IP address to the query making it   index="main" host=mailsv fail* root "109.169.32.135"   and found 4 similar events of failed SSH logins for the root account at the same time 1:39am which is out of business hours. I reported my findings and recommended for that IP address to be blocked. 
 ![image](https://github.com/user-attachments/assets/87c22171-91ec-4599-b623-80c546ffe1db)
 
 
-
-## Screenshots
-
-![Screenshot 2025-04-17 153015](https://github.com/user-attachments/assets/6a8222bc-6934-47a0-8387-680421bb9dee)
 
