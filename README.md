@@ -1,6 +1,6 @@
 # SIEM Lab
 ## Objective
-I was tasked to be a security analyst working for an e-commerce store that is is supposed to identify possible security issues with the mail server. To do so I had to take the data given and sort through it to find fialed SSH logins for the root account occuring and report it. I used Splunk Cloud to upload a zip file of data, perform a series of searches on the uploaded data, and write up my findings.
+I was tasked to be a security analyst working for an e-commerce store that is is supposed to identify possible security issues with the mail server. To do so I had to take the data given and sort through it to find fialed SSH logins for the root account occuring and report suspicious findings. I used Splunk Cloud to upload a zip file of data, performed a series of searches to analyze key patterns, and documented a report summarizing my findings.
 
 ### Skills Learned
 
@@ -12,7 +12,7 @@ I was tasked to be a security analyst working for an e-commerce store that is is
 
 ### Tools Used
 
-- Security Information and Event Management (SIEM) system Splunk Cloud for log ingestion and analysis.
+- Security Information and Event Management (SIEM) platform Splunk Cloud for log ingestion, search, and analysis.
   
 ## Steps
 
